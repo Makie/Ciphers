@@ -99,5 +99,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
 *.sublime-project
 *.sublime-workspace
+scratch.py
+input.txt
+output.txt
