@@ -1,4 +1,7 @@
-""" Reverse Cipher """
+""" Reverse Cipher
+
+http://inventwithpython.com/hacking/chapter5.html
+"""
 
 import utils
 
