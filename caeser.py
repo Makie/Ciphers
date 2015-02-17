@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-""" Caeser Cipher
+""" Caeser Cipher.
 
 http://inventwithpython.com/hacking/chapter6.html
 """
 
 import utils
+import string
 
 MESSAGE = utils.file_in()
 KEY = 13
 MODE = "encrypt"
-LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+LETTERS = string.ascii_uppercase
 
 def translate(message=MESSAGE, mode=MODE, key=KEY):
     message = message.upper()
